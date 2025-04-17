@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  ssh-tunnel-manager:
+    build: .
+    container_name: ssh-tunnel-manager
+    restart: unless-stopped
+    user: "1000:1000"  # Run as UID 1000, GID 1000
+    volumes:
+      - ssh-data:/data
+    ports:
+      - "5000:5000"
+    environment:
+      - TZ=UTC
+
+volumes:
+  ssh-data:
+    name: ssh-tunnel-manager-data
