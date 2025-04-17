@@ -12,14 +12,12 @@ services:
     restart: on-failure
     user: "1000:1000"  # Run as UID 1000, GID 1000
     stop_grace_period: 1m
-    # Either remove the ports section entirely if not needed
-    # or uncomment and provide actual port mappings:
-    # ports:
-    #   - "5000:5000"
     volumes:
       - ssh-data:/data
     environment:
       - TZ=UTC
+    extra_hosts:               #  <‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑
+      - "host.docker.internal:host-gateway"
     container_name: ssh-tunnel-manager_web_1
 
 volumes:

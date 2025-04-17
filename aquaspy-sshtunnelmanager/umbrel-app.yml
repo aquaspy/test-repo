@@ -2,7 +2,7 @@ manifestVersion: 1
 id: aquaspy-sshtunnelmanager
 name: SSH Tunnel Manager
 tagline: Open a secure tunnel to a remote VPS. This is an alternative for CF Tunnels.
-icon: https://svgur.com/i/mvA.svg
+icon: https://github.com/aquaspy/ssh-tunnel-manager/blob/main/logo.svg
 category: networking
 version: "1.0.0"
 port: 5000
@@ -12,15 +12,16 @@ description: >-
 developer: TheSelfHostingArt
 website: https://theselfhosting.art
 submitter: TheSelfHostingArt
-submission: https://github.com/aquaspy/test-repo/sshtunnelmanager
-repo: https://github.com/aquaspy/test-repo/sshtunnelmanager
-support: https://github.com/aquaspy/test-repo/sshtunnelmanager
+submission: https://github.com/aquaspy/ssh-tunnel-manager
+repo: https://github.com/aquaspy/ssh-tunnel-manager
+support: https://github.com/aquaspy/ssh-tunnel-manager
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/rFRrgh9.png
+  - https://i.imgur.com/OAbvO17.png
+  - https://i.imgur.com/HBb6gsw.png
+  - https://i.imgur.com/x3tS2iw.png
 releaseNotes: >-
-  This is a test release.
+  This is the first release.
 dependencies: []
 path: ""
 defaultUsername: ""
