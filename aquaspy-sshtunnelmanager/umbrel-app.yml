@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: aquasp-store-sshtunnelmanager
+id: aquaspy-sshtunnelmanager
 name: SSH Tunnel Manager
 tagline: Open a secure tunnel to a remote VPS. This is an alternative for CF Tunnels.
 icon: https://svgur.com/i/mvA.svg
