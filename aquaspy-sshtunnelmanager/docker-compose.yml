@@ -3,8 +3,9 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: ssh-tunnel-manager_1
+      APP_HOST: ssh-tunnel-manager_web_1
       APP_PORT: 5000
+    container_name: aquaspy-sshtunnelmanager_app_proxy_1
 
   web:
     image: theselfhostingart/ssh-tunnel-manager:v1.0
@@ -19,7 +20,9 @@ services:
       - ssh-data:/data
     environment:
       - TZ=UTC
+    container_name: ssh-tunnel-manager_web_1
 
 volumes:
   ssh-data:
     name: ssh-tunnel-manager-data
+
