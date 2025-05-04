@@ -21,7 +21,7 @@ gallery:
   - https://i.imgur.com/HBb6gsw.png
   - https://i.imgur.com/x3tS2iw.png
 releaseNotes: >-
-  This is the first release.
+  This is the second release. This should improve the reliability of the app.
 dependencies: []
 path: ""
 defaultUsername: ""
