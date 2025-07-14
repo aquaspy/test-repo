@@ -4,7 +4,7 @@ name: SSH Tunnel Manager
 tagline: Open a secure tunnel to a remote VPS. This is an alternative for CF Tunnels.
 icon: https://raw.githubusercontent.com/aquaspy/ssh-tunnel-manager/refs/heads/main/logo.svg
 category: networking
-version: "1.1.0"
+version: "1.2.0"
 port: 5000
 description: >-
   If you want to access your home lab on the internet this is a good solution. This app allows you to expose local ports to a remote VPS. In the remote VPS you can use something like Caddy, Nginx or Apache to make the app accessible.
@@ -21,7 +21,7 @@ gallery:
   - https://i.imgur.com/HBb6gsw.png
   - https://i.imgur.com/x3tS2iw.png
 releaseNotes: >-
-  This is the second release. This should improve the reliability of the app.
+  This is the third release. This should improve the reliability of the app.
 dependencies: []
 path: ""
 defaultUsername: ""
